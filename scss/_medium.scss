@@ -38,3 +38,5 @@ nav {
     $w: calc($i / 12) *100%;
     .medium-#{$i} {flex-basis: $w;}
 }
+
+.card {margin: 1rem 0;}

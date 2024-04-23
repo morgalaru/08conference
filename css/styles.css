@@ -468,7 +468,7 @@ main img {
 }
 .column h2 {
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .column p {
   margin-top: 0;
@@ -524,9 +524,9 @@ main img {
 
 .card {
   background-color: transparent;
-  border: 1px solid #f1f1f1;
   perspective: 1000px;
   margin: 1rem;
+  min-height: 60vh;
 }
 
 .card-inner {
@@ -634,6 +634,9 @@ main img {
   }
   .medium-12 {
     flex-basis: 100%;
+  }
+  .card {
+    margin: 1rem 0;
   }
 }
 @media only screen and (min-width: 60rem) {
